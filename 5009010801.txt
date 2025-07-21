@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-16042024-020280";"";
+"REFERENCE";"5009010801";"";
+"TraceParts.PartTitle";"microSD Card";"";
+"TraceParts.InstanceId";"90-16042024-0202802N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"1.10mm Pitch TransFlash Memory Card Connector, Hinge Type, Round Corner Top";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.2";"";

@@ -1,0 +1,195 @@
+(footprint "T01-0560-S03"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -7.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "07c6e1d5-93a3-4075-9571-fdc584a4c267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 1.1 2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31fe8af9-6e52-4e08-be5a-b0050f702e08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.1 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eea05bad-c24f-40e4-84a1-653d4eb2112f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.1 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf4ada5b-ffab-4c9a-9bcf-9c08720d99e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 5.5)
+		(end -6 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bda8a1ad-941f-4b28-addf-d943e2e14919")
+	)
+	(fp_line
+		(start -5.9 -5.9)
+		(end -5.9 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c05733bf-0069-482b-8429-6e51b6c21744")
+	)
+	(fp_line
+		(start 6.1 -5.9)
+		(end -5.9 -5.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fad23025-78d6-4038-9cf4-40978a03a9e3")
+	)
+	(fp_line
+		(start 6.1 -2.8)
+		(end 6.1 -5.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40d53ae6-4140-4847-82b2-f4b5f3d96b90")
+	)
+	(fp_line
+		(start 6.1 5.5)
+		(end 6.1 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43498a8e-a394-4678-b3cc-22954d51d5e4")
+	)
+	(fp_rect
+		(start -5.9 -13)
+		(end 6.1 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dba2df1b-ca08-4ea9-b019-a4d6ec04bc30")
+	)
+	(fp_rect
+		(start -6.25 -14.1)
+		(end 6.45 5.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a83fa253-dcb7-4499-a1ef-9ce328597d18")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.1 3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0a3f9c6-8f77-440e-a4d2-04f95740993c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.55 1.1)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21472ff7-1bbc-4550-898f-5549db47f046")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.1)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ca6b5311-557c-431a-af25-b58360ce56c3")
+	)
+	(pad "3" thru_hole circle
+		(at 1.55 1.1)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8adb8638-d16b-4b61-b2d7-941f7bc29f4e")
+	)
+	(pad "4" thru_hole roundrect
+		(at 6 0)
+		(size 3 5)
+		(drill oval 1.5 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(uuid "d7a1cf4f-6d96-41c3-8e7b-5d93a1853c74")
+	)
+	(pad "5" thru_hole roundrect
+		(at -6 0)
+		(size 3 5)
+		(drill oval 1.5 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(uuid "1ac05599-fd41-4570-9d97-e7b9874fb071")
+	)
+	(embedded_fonts no)
+	(model "/home/markb/smartavionics/kicad/5-1437719-4.stp"
+		(offset
+			(xyz 0 13 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)

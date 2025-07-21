@@ -1,0 +1,138 @@
+(footprint "APEM TP33WW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6a9505c-cbfe-440b-825b-ca1c65aca872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "APEM TP33WW"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "efb6545b-5089-434e-b3e7-dbf42c594a49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "168d40d9-eb6c-4608-876f-65cd1eb37e93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e34af25-e714-4407-8f70-1be9f4cfccb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.5 6.42)
+		(end 2.5 13.82)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f6392bd6-1d1d-413c-84b6-e6c4931f8401")
+	)
+	(fp_rect
+		(start -2.1 0.72)
+		(end 2.1 6.42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "27bf8d11-1a75-4d3b-8043-30783be2c822")
+	)
+	(fp_rect
+		(start -3.1 0.7)
+		(end 3 21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d1012c37-2c2e-42ac-89a9-b27d1bb729cc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f741ef7a-f9e4-4357-8203-99ffd9d8e82d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 15)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1caabf5-1950-4d23-901f-6713820a857d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 20.08)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53ce2558-f8ff-400e-afa1-55639c178537")
+	)
+	(pad "3" thru_hole circle
+		(at 0 9.92)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fde95274-edf5-4a54-a153-de36261a3bf5")
+	)
+	(embedded_fonts no)
+	(model "/home/markb/smartavionics/kicad/tl36ww.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
