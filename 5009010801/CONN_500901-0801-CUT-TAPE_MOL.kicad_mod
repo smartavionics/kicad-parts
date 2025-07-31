@@ -270,7 +270,7 @@
 	(embedded_fonts no)
 	(model "/home/markb/smartavionics/kicad/5009010801.stp"
 		(offset
-			(xyz 0 -6.75 -13)
+			(xyz 0 -6.75 -13.25)
 		)
 		(scale
 			(xyz 1 1 1)
