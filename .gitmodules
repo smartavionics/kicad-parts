@@ -1,0 +1,9 @@
+[submodule "rp2350_stamp_hw"]
+	path = rp2350_stamp_hw
+	url = https://github.com/solderparty/rp2350_stamp_hw.git
+[submodule "rp2xxx_stamp_footprints"]
+	path = rp2xxx_stamp_footprints
+	url = https://github.com/solderparty/rp2xxx_stamp_footprints.git
+[submodule "digikey-kicad-library.git"]
+	path = digikey-kicad-library.git
+	url = https://github.com/Digi-Key/digikey-kicad-library.git
