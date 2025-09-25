@@ -1,0 +1,210 @@
+(footprint "AUAV-L30D-M25125-RR-N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -10.9 0.1 90)
+		(layer "F.SilkS")
+		(uuid "1132993f-a225-4892-9b79-19f60991584e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AUAV-L30D-M25125-RR-N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "faf7d29b-bb7d-4515-9b4d-4764c333ab49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b904d7-235b-4ba7-8894-12989cf701dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7a4dbd6-6653-40e4-8e54-587d6499f745")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8.8 -10.4)
+		(end 8.6 -10.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b43e00f6-c237-4b8d-8720-5cce0ad2c691")
+	)
+	(fp_line
+		(start -8.8 9.6)
+		(end -8.8 -10.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f619416-7124-4343-9aba-608107f042ba")
+	)
+	(fp_line
+		(start -8 10.4)
+		(end -8.8 9.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "276f222b-166f-43bc-b9fb-075f3aa429b6")
+	)
+	(fp_line
+		(start 8.6 -10.4)
+		(end 8.6 10.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8220ca20-343b-4d0e-9ecc-bcbfa311e6d6")
+	)
+	(fp_line
+		(start 8.6 10.4)
+		(end -8 10.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b2d51eb9-9d64-43ae-9b93-460c86b2cb2a")
+	)
+	(fp_rect
+		(start -8.6 -10.2)
+		(end 8.4 10.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "56703d13-aca9-4d84-bc67-50513e8a1961")
+	)
+	(pad "1" smd rect
+		(at -6.35 8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9837461e-201c-433c-abab-a88f75a1c05c")
+	)
+	(pad "2" smd rect
+		(at -3.81 8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "af595d83-d706-42e1-93f4-bfe434c56f8c")
+	)
+	(pad "3" smd rect
+		(at -1.27 8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "aa7f4d2f-d988-4dea-bedd-898120211199")
+	)
+	(pad "4" smd rect
+		(at 1.27 8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "49ede1b6-7205-46e1-bcdf-9c5637df477b")
+	)
+	(pad "5" smd rect
+		(at 3.81 8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c054f7a0-3504-4257-9229-b59e14d8034b")
+	)
+	(pad "6" smd rect
+		(at 6.35 8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7d0474e5-7992-4539-9df0-73ce8b26c4c5")
+	)
+	(pad "7" smd rect
+		(at 6.35 -8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fd98857b-700e-40e1-9713-70a282656c03")
+	)
+	(pad "8" smd rect
+		(at 3.81 -8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6e746075-d85d-4208-a5e2-9c327e844f09")
+	)
+	(pad "9" smd rect
+		(at 1.27 -8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "880b4fff-549f-4003-b943-dfaa81bff04e")
+	)
+	(pad "10" smd rect
+		(at -1.27 -8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fb0a79de-c55a-46a4-922f-68e5011f22a1")
+	)
+	(pad "11" smd rect
+		(at -3.81 -8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2721d8a8-ab9e-4f54-977b-769288f8742a")
+	)
+	(pad "12" smd rect
+		(at -6.35 -8)
+		(size 1.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "50ea091a-06bd-4112-8963-30ba9d1967ac")
+	)
+	(embedded_fonts no)
+	(model "/home/markb/smartavionics/kicad/AUAV-L30D-M25125-RR-N--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
