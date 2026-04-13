@@ -1,0 +1,307 @@
+(footprint "JSA41G0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JSA4-1-G0-3")
+	(tags "Switch")
+	(property "Reference" "JP4"
+		(at 0 -1.27 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1ad17d58-5524-40ea-a041-98c33cf7f8c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Jumper_2_Open"
+		(at 0 -1.27 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a0d3ddc4-ce62-4766-8f2c-eb5cec6adcd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/IECD/IECD-S-A0001526947/IECD-S-A0001526947-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d165f717-fb2e-42f5-b752-685430779760")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ERG COMPONENTS - JSA4-1-G0 - DIP / SIP Switch, Jumper, 1 Circuits, Slide, Through Hole, SPST, 100 V, 1 A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "476e683c-afd3-43b9-a43c-a0cddcb679c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "8.4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5a67b9e-0e3f-4836-948d-c0a3a328b62b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ERG COMPONENTS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d3e8ede-a9c2-4270-af0b-fe45f1f0cb14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "JSA4-1-G0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6878388c-57dc-4bd0-9882-5a50417ab80f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c31b6e4c-4b27-457d-b48d-743af1818fe4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f41320b4-9363-4860-9d50-58b0c0c710ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52c9b2cb-c114-443a-9ff2-4d9f37bd90a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0674d085-96fb-4ad7-859b-371261553694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.24 -5)
+		(end 1.3 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bfeab1b-11cf-4e6e-8b5e-e0acc32c3524")
+	)
+	(fp_line
+		(start -1.24 1.1)
+		(end -1.24 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e9af374-f4db-4c44-bd3c-d414e62f266c")
+	)
+	(fp_line
+		(start 1.3 -5)
+		(end 1.3 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c99653d-038b-4c4a-b487-0a458e020f5e")
+	)
+	(fp_line
+		(start 1.3 1.1)
+		(end -1.24 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be846a3b-7b32-40c0-98c7-0c0091f40ef6")
+	)
+	(fp_line
+		(start -1.27 -5)
+		(end 1.3 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0616e839-64de-4f1e-9e6d-6511f6245ae9")
+	)
+	(fp_line
+		(start -1.27 1.12)
+		(end -1.27 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b465d26-254b-4dbd-bcf6-33d453341d29")
+	)
+	(fp_line
+		(start 1.3 -5)
+		(end 1.33 1.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fff6169a-2c5e-4140-b901-9d7c2aadbf0f")
+	)
+	(fp_line
+		(start 1.33 1.12)
+		(end -1.27 1.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c2a4cde-a3b9-4c66-94f2-46e948e7c393")
+	)
+	(fp_line
+		(start -1.24 -5)
+		(end 1.3 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0c22965-880e-41de-a312-154731a5fd1a")
+	)
+	(fp_line
+		(start -1.24 1.1)
+		(end -1.24 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5197ba3c-11ea-4d93-92e3-0ccb40c5dddd")
+	)
+	(fp_line
+		(start 1.3 -5)
+		(end 1.3 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83a53f1e-b5bd-4bfe-836d-23bd244458a9")
+	)
+	(fp_line
+		(start 1.3 1.1)
+		(end -1.24 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98b074df-4fc7-48f0-b672-162199f63801")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.03 -1.8 180)
+		(layer "F.Fab")
+		(uuid "89dec482-1428-405b-9318-f65c879c735b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.665 1.665)
+		(drill 1.11)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "55f473d7-31bf-483e-a50a-778a146fd7f6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 1.665 1.665)
+		(drill 1.11)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c02db40-29b1-4b97-8821-7fc4b31cb7af")
+	)
+	(embedded_fonts no)
+	(model "JSA4-1-G0.stp"
+		(offset
+			(xyz 0 2.00999996 0.4600000014)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
