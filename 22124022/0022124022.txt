@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-05062020-035446";"";
+"REFERENCE";"22124022";"";
+"TraceParts.PartTitle";"KK 254";"";
+"TraceParts.InstanceId";"90-05062020-0354462N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"KK 254 Wire-to-Board Header, Right-Angle, with Friction Lock, 2 Circuits";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.5";"";
